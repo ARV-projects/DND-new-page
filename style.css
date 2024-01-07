@@ -1,0 +1,111 @@
+/* Stilizare generală pentru pagina web */
+html, body {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Stilizarea footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer div {
+  width: 30%; /* Ajustează lățimea pentru a potrivi nevoilor tale */
+}
+
+/* Stilizare secțiuni */
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Stilizare formular */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+form label,
+form input,
+form textarea {
+  margin-bottom: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #555;
+}
+
+/* Stiluri pentru serviciile individuale */
+.service-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.service-item h3 {
+  margin-top: 0;
+}
+.service-item p {
+  margin-bottom: 20px;
+}
+.service-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Stiluri pentru help and advice */
+.help-and-advice {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.help-and-advice h3 {
+  margin-top: 0;
+}
+.help-and-advice p {
+  margin-bottom: 10px;
+}
+.help-and-advice img {
+  width: 100%;
+  height: auto;
+}
+
+
